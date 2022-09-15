@@ -3,19 +3,15 @@
 
     <!-- required for API 18 - 30 -->
     <uses-permission
-            android:name="android.permission.BLUETOOTH"
-            android:maxSdkVersion="30" />
+            android:name="android.permission.BLUETOOTH" />
     <uses-permission
-            android:name="android.permission.BLUETOOTH_ADMIN"
-            android:maxSdkVersion="30" />
+            android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <!-- required for API 23 - 30 -->
     <uses-permission-sdk-23
-            android:name="android.permission.ACCESS_COARSE_LOCATION"
-            android:maxSdkVersion="30" />
+            android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission-sdk-23
-            android:name="android.permission.ACCESS_FINE_LOCATION"
-            android:maxSdkVersion="30" />
+            android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <!-- API 31+ -->
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
